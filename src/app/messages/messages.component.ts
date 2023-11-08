@@ -9,6 +9,7 @@ import { MessageService } from '../message.service';
 export class MessagesComponent {
   test: string = '';
   test1 : string = '';
+  test3 : string = '';
   constructor(public messageService: MessageService){
 
   }
